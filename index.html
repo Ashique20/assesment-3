@@ -11,8 +11,8 @@
 </head>
 
 <body class="max-w-7xl mx-auto bg-white">
-    <header class="p-1 border border-black">
-        <div class="navbar  lg:w-[90%] bg-[#F85559] lg:ml-20 p-4 rounded-full text-white mt-10 ">
+    <header class="p-1 ">
+        <div class="navbar  lg:w-[90%] bg-white  lg:ml-20 p-4 rounded text-black mt-10 ">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -35,6 +35,10 @@
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
+               <img src="Images/Hockey’s.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex gap-4">
+
                 <ul class="hidden  lg:flex lg:gap-8 lg:px-1 lg:text-lg">
                     <li><a>Home</a></li>
 
@@ -43,21 +47,17 @@
 
                     <li><a>All Fruits</a></li>
                 </ul>
-            </div>
-            <div class="navbar-center hidden lg:flex gap-4">
-
-                <a class=" text-3xl">Fruit Burst</a>
-                <img src="images/logo.png" alt="">
 
             </div>
             <div class="navbar-end">
-                <label class="input input-bordered flex items-center lg:gap-2 bg-white rounded-full">
-                    <input type="text" class="grow" placeholder="Search" />
-                    <img class="mr-4 lg:w-4" src="images/Vector (11).png" alt="">
-                </label>
+                
+                    
+                    <img class="mr-4 lg:w-4" src="images/search.png" alt="">
+                    <button class="btn bg-[#FF4240] text-xl text-white">Get Ticket</button>
+
             </div>
         </div>
-        <div class="banner mt-10 mx-20 border border-black">
+        <div class="banner mt-10 mx-20 ">
             <div class="carousel lg:w-full h-96 lg:h-[600px] ">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/1.png" alt="">
@@ -94,8 +94,8 @@
             </div>
         </div>
     </header>
-    <main class="border border-black">
-        <section class="fruits relative  lg:bottom-[400px] lg:left-60  lg:mx-96  text-white font-bold ">
+    <main >
+        <section class="fruits relative  lg:bottom-[400px] lg:left-60   lg:mx-96  text-white font-bold ">
             <div class="p-10 lg:absolute  bg-[#131318] rounded-2xl">
                 <h1 class="text-3xl">Meet all the heroes from the field</h1>
                 <p class="text-xl mt-5">Hockey is a term used to denote a family of various types of both summer and
@@ -104,7 +104,7 @@
 
         </section>
         <section>
-            <div class=" flex flex-col mb-10 lg:gap-40 mx-20 lg:flex-row ">
+            <div class=" flex flex-col mb-10 mt-20 lg:gap-40 mx-20 lg:flex-row ">
                 <div class="text-center text-black font-bold p-20 border-y border-dashed	border-black">
                     <h1 class="text-4xl font-bold mb-10">Professional Hockeys Club</h1>
                     <p>What is called field hockey?
@@ -486,9 +486,40 @@
         </div>
 
     </main>
-    <footer>
-
-    </footer>
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <aside class="text-white">
+            <h1 class="text-2xl">Get In Touch</h1>
+          <p class="lg:w-80">A footer is a section at the bottom of a document or webpage. It provides additional information, navigation links, copyright notices, and other relevant details.
+        </p>
+        <div class="flex items-center gap-4 mt-5"><img src="Images/mail (2).png" alt=""> <span>hockeys@support.com</span></div>
+        <div class="flex items-center gap-4 mt-5" ><img src="Images/tele.png" alt=""> <span>(+62) 123-321-543</span></div>
+        </aside> 
+     <div class="flex flex-col lg:flex-row gap-20 text-center">
+        <div class="flex gap-20">
+            <div>
+                <h6 class="footer-title">Company</h6> 
+                <h1>About us</h1>
+                <h1>Leadership</h1>
+                <h1>Careers</h1>
+                <h1>News & Article</h1>
+            </div> 
+            <div>
+                <h6 class="footer-title">Support</h6> 
+                <h1>About us</h1>
+                <h1>Leadership</h1>
+                <h1>Careers</h1>
+                <h1>News & Article</h1>
+            </div> 
+           </div>
+           <div class="ml-20 lg:ml-0">
+            <h6 class="footer-title">Services</h6> 
+            <h1>About us</h1>
+            <h1>Leadership</h1>
+            <h1>Careers</h1>
+            <h1>News & Article</h1>
+        </div> 
+     </div>
+      </footer>
 </body>
 
 </html>
